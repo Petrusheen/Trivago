@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="http://127.0.0.1:5500/public/index.html"><img src="Images/Trivago-Logooooookiseeeeebb.png" alt=""></a>
+            <div>
+                <li><a href="">Favorites</a></li>
+                <li>Log in</li>
+                <li>Menu</li>
+            </div>
+        </ul>
+    </nav>
+    <hr>
+
+    <header>
+        <div id="head-con">
+            <h1>Save up to 40% on your next hotel stay</h1>
+            <h3>We compare hotel prices from over 100 sites</h3>
+            <form action="" id="search-form">
+                <div id="form-div">
+                    <div>
+                        <input type="search" placeholder="Where to?" name="search" id="search" >
+                    </div>
+                    <div>
+                        <input type="date" name="datein" id="datein">
+                    </div>
+                    <div>
+                        <input type="date" name="dateout" id="dateout">
+                    </div>
+                    <div>
+                        <select name="select" id="select" aria-placeholder="guest, rooms">
+                            <option value="adult">Adults</option>
+                            <option value="child">Children</option>
+                            <option value="room">Rooms</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="submit-con">
+                    <button id="submit">Search</button>   
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <h2>Hot hotel deals right now</h2>
+        <div id="hot-con">
+            <div class="hotel-con">
+                <img src="Images/73865433007-tempoby-hilton-nashville-standard-king.webp" alt="">
+                <div class="hot-desb">
+                    <h3>Palace Hotel Hévíz</h3>
+                    <div class="rating">
+                        <h5>8.7 Excellent</h5>
+                        <h5>IDK</h5>
+                    </div>
+                    <div class="deal">
+                        <h5>Booking.com</h5>
+                        <h5>About</h5>
+                        <h3>Ft 37,434</h3>
+                        <div class="night">
+                            <h5>per night</h5>
+                            <h5>Feb 19 - Feb 20</h5>
+                        </div>
+                        <button>Check deal</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-con">
+                <img src="Images/SuiteNov2022_0008_1920.jpg" alt="">
+                <div class="hot-desb">
+                    <h3>Rodos Palace Hotel</h3>
+                    <div class="rating">
+                        <h5>8.0 Very Good</h5>
+                        <h5>IDK</h5>
+                    </div>
+                    <div class="deal">
+                        <h5>Aldi-Utazas</h5>
+                        <h5>About</h5>
+                        <h3>Ft 50,129</h3>
+                        <div class="night">
+                            <h5>per night</h5>
+                            <h5>Mar 10 - Mar 17</h5>
+                        </div>
+                        <button>Check deal</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-con">
+                <img src="Images/VM_Hilton_Plaza_Suite_King_Room_9b5d673a-95c6-445e-ad6b-5ae85e260f18.jpg" alt="">
+                <div class="hot-desb">
+                    <h3>Sailini Resort</h3>
+                    <div class="rating">
+                        <h5>8.4 Very Good</h5>
+                        <h5>IDK</h5>
+                    </div>
+                    <div class="deal">
+                        <h5>Agoda</h5>
+                        <h5>About</h5>
+                        <h3>Ft 27,493</h3>
+                        <div class="night">
+                            <h5>per night</h5>
+                            <h5>Mar 6 - Mar 9</h5>
+                        </div>
+                        <button>Check deal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="more-con">
+            <h4 id="more">Explore more stays   <svg fill="#000000" height="15px" width="15px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_27_" fill="#2675b6" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255 s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0 c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"></path></g></svg></h4>
+        </div>
+
+        <h2>Popular searches</h2>
+        <div id="popular">
+            <h4>Cities</h4>
+            <h4>Destinations</h4>
+        </div>
+        <div id="pop-con">
+            <div class="pophotel-con">
+                <img src="Images/study-in-london-1068x641.jpg" alt="">
+                <div class="pop-desb">
+                    <h3>London</h3>
+                    <h5>6,474 <span>Hotels</span></h5>
+                    <h5>Ft 84,503 <span>Avg.</span></h5>
+                </div>
+            </div>
+            <div class="pophotel-con">
+                <img src="Images/spain-barcelona-sagrada-familia-080416-az.jpg" alt="">
+                <div class="pop-desb">
+                    <h3>Barcelona</h3>
+                    <h5>4,243 <span>Hotels</span></h5>
+                    <h5>Ft 85,085 <span>Avg.</span></h5>
+                </div>
+            </div>
+            <div class="pophotel-con">
+                <img src="Images/OG_Colosseum_Ancient-Rome_KIDS_1122_3x2.avif" alt="">
+                <div class="pop-desb">
+                    <h3>Rome</h3>
+                    <h5>6,370 <span>Hotels</span></h5>
+                    <h5>Ft 68,366 <span>Avg.</span></h5>
+                </div>
+            </div>
+            <div class="pophotel-con">
+                <img src="Images/Budapest-1.jpg" alt="">
+                <div class="pop-desb">
+                    <h3>Budapest</h3>
+                    <h5>2,995 <span>Hotels</span></h5>
+                    <h5>Ft 42,321 <span>Avg.</span></h5>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="foot-con">
+            <img src="Images/TRVG_BIG.D-4a5aaaaaaaaaaaaaaaaaaaaaaa.png" alt="">
+            <div id="foot-div">
+                <div id="infos">
+                    <h5>Company</h5>
+                    <h5>Jobs</h5>
+                    <h5>Mobile apps</h5>
+                    <h5>Help</h5>
+                    <h5>Terms and conditions</h5>
+                    <h5>Legal information</h5>
+                </div>
+                <div id="subscribe">
+                    <h3>Get exclusive inspiration for your next stay <br>– subscribe to our newsletter.</h3>
+                    <form action="" id="subscribe-form">
+                        <div>
+                            <input type="email" placeholder="Email Address">
+                            <button>Subscribe</button>
+                        </div>
+                    </form>
+                    <div id="copy-con">
+                        <h5>trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf, Germany</h5>
+                        <h5>Copyright 2025 trivago | All rights reserved.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
